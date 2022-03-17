@@ -1,4 +1,5 @@
 import React from 'react'
+import "./NavBar.scss"
 import FilterBar from '../FilterBar/FilterBar'
 import SearchBar from '../SearchBar/SearchBar'
 
