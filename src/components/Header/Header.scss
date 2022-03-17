@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Cabin Bold";
+    src: local("Cabin Bold"),
+      url("../../assets/fonts/Cabin/Cabin-Bold.ttf");
+  }
+
+  @font-face {
+    font-family: "Source Sans Pro Regular";
+    src: local("Source Sans Pro Regular"),
+      url("../../assets/fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf");
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    background-color: #385995;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cabin Bold";
+    font-size: 50px;
+    color: white;
+    padding-top: 200px;
+}
+
+img {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 400px;
+    height: 400px;
+}
